@@ -30,7 +30,8 @@
         android:id="@+id/email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="przykładowy@email.com"/>
+        android:hint="przykładowy@email.com"
+        android:inputType="textEmailAddress"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -70,7 +71,8 @@
         android:id="@+id/emailText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
-        android:layout_gravity="center"/>
+        android:text="Autor, PESEL"
+        android:layout_gravity="center"
+        android:textSize="15dp"/>
 
 </LinearLayout>
