@@ -54,6 +54,13 @@ namespace Konsola
             }
         }
 
+        /********************************************************
+         * nazwa funkcji:       Sort
+         * parametry wejściowe: brak
+         * wartość zwracana:    brak 
+         * autor:               PESEL
+         * ****************************************************/
+
         private int FindMaxIndex(int startIndex)
         {
             int maxIndex = startIndex;
@@ -68,6 +75,13 @@ namespace Konsola
             return maxIndex;
         }
 
+        /********************************************************
+         * nazwa funkcji:       FindMaxIndex
+         * parametry wejściowe: startIndex - indeks początkowy, od którego ma rozpocząć się poszukiwanie
+         * wartość zwracana:    int - indeks największego elementu w pozostałej części tablicy
+         * autor:               PESEL
+         * ****************************************************/
+
         private void Swap(int index1, int index2)
         {
             int temp = array[index1];
@@ -75,9 +89,23 @@ namespace Konsola
             array[index2] = temp;
         }
 
+        /********************************************************
+         * nazwa funkcji:       Swap
+         * parametry wejściowe: index1 - pierwszy indeks, index2 - drugi indeks
+         * wartość zwracana:    brak
+         * autor:               PESEL
+         * ****************************************************/
+
         public int[] GetArray()
         {
             return array;
         }
+
+        /********************************************************
+         * nazwa funkcji:       GetArray
+         * parametry wejściowe: brak
+         * wartość zwracana:    int[] - tablica zawierająca posortowane liczby
+         * autor:               PESEL
+         * ****************************************************/
     }
 }
